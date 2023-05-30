@@ -97,8 +97,8 @@ UNUSED(precision);
 UNUSED(size);
 return (write(1, "%%", 1));
 }
-/************************* PRINT INT *************************/
-/**
+
+/
 *print_int - Print int
 *@types : Lista of arguments
 * @buffer : Buffer array to handle print
@@ -141,8 +141,7 @@ i++;
 return (write_number(is_negative, i, buffer, flags, width, precision, size));
 }
 
-/************************* PRINT BINARY *************************/
-/**
+/
 * print_binary - Prints an unsigned number
 * @types : Lista of arguments
 * @buffer : Buffer array to handle print
@@ -163,7 +162,7 @@ UNUSED(buffer);
 UNUSED(flags);
 UNUSED(width);
 UNUSED(precision);
-  UNUSED(size);
+UNUSED(size);
 n = va_arg(types, unsigned int);
 m = 2147483648; /* (2 ^ 31) */
 a[0] = n / m;
