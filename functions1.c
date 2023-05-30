@@ -134,6 +134,5 @@ buffer[i--] = flag_ch;
 buffer[i--] = '0';
 }
 i++;
-
 return (write_unsgnd(0, i, buffer, flags, width, precision, size));
 }
