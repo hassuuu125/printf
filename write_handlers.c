@@ -37,7 +37,6 @@ write(1, &buffer[0], 1));
 }
 return (write(1, &buffer[0], 1));
 }
-
 /************************* WRITE NUMBER *************************/
 /**
  * write_number - Prints a string
@@ -126,7 +125,6 @@ if (extra_c)
 buffer[--ind] = extra_c;
 return (write(1, &buffer[ind], length));
 }
-
 /**
  * write_unsgnd - Writes an unsigned number
  * @is_negative: Number indicating if the num is negative
